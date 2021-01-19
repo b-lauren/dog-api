@@ -40,7 +40,40 @@ h1 {
   align-items: center;
 }
 
-.dog-icon {
+/*.dog-icon {
   color: #000;
   font-weight: 20px;
+}*/
+
+p {
+  margin: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.container, label, select {
+  padding: 8px;
+}
+
+input[type="text"], select, textarea {
+  border: solid 2px #ddd; }
+  input[type="text"]:focus, select:focus, textarea:focus {
+  border: solid 2px #bf6a91;
+}
+
+label {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+#breeds {
+  width: 100%;
+}
+
+#breeds:hover {
+  border: 1px solid #bf6a91;
 }
