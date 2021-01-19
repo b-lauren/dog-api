@@ -48,8 +48,6 @@ p {
   max-width: 500px;
   margin: 0 auto;
   margin-top: 40px;
-  /*don't forget to remove*/
-  margin-bottom: 400px;
 }
 
 .container, label, select {
