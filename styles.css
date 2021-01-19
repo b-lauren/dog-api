@@ -40,11 +40,6 @@ h1 {
   align-items: center;
 }
 
-/*.dog-icon {
-  color: #000;
-  font-weight: 20px;
-}*/
-
 p {
   margin: 20px;
 }
@@ -53,16 +48,12 @@ p {
   max-width: 500px;
   margin: 0 auto;
   margin-top: 40px;
+  /*don't forget to remove*/
+  margin-bottom: 400px;
 }
 
 .container, label, select {
   padding: 8px;
-}
-
-input[type="text"], select, textarea {
-  border: solid 2px #ddd; }
-  input[type="text"]:focus, select:focus, textarea:focus {
-  border: solid 2px #bf6a91;
 }
 
 label {
@@ -76,4 +67,25 @@ label {
 
 #breeds:hover {
   border: 1px solid #bf6a91;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  object-fit: cover;
+  border: 5px solid #bf6a91;
+  margin: 35px 0;
+}
+
+span {
+  display: block;
+  background-color: #EDC264;
+  padding: 10px;
+  width: 370px;
+  margin: auto;
+}
+
+span:hover {
+  opacity: 0.9;
 }
