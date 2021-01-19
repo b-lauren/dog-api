@@ -84,8 +84,40 @@ span {
   padding: 10px;
   width: 370px;
   margin: auto;
+  border-radius: 5px;
 }
 
 span:hover {
   opacity: 0.9;
 }
+
+
+/*Media queries*/
+
+@media only screen and (max-width: 400px) {
+
+   body {
+    font-size: 18px;
+  }
+
+  nav {
+    height: 90px;
+  }
+
+  .logo {
+    top: 42px;
+  }
+  img {
+    width: 280px;
+    height: 280px;
+  }
+
+  #breeds {
+  width: 80%;
+  }
+span {
+  width: 70%;
+  }
+}
+
+
